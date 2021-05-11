@@ -1,0 +1,16 @@
+<div *ngIf="ciao">
+  <h2>{{ciao.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{ciao.id}}</div>
+  <div>
+    <label for="ciao-name">Ciao name: </label>
+    <input id="ciao-name" [(ngModel)]="ciao.name" placeholder="Ciao name"/>
+  </div>
+ 
+</div>
+
+<div>
+  <label for="Date" >Date:--------- </label>
+    <input id="ciao-name" [(ngModel)]="ciao.name" placeholder="Ciao name"/>
+</div>
+ <button (click)="goBack()">go back</button>
+  <button (click)="save()">save</button>
