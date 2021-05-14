@@ -1,12 +1,12 @@
 <h2>Employees</h2>
 
 <div>
-  <label for="new-ciao">Ciao name: </label>
+  <label for="new-ciao">First and Last name: </label>
   <input id="new-ciao" #ciaoName />
 
   <!-- (click) passes input value to add() and then clears the input -->
   <button class="add-button" (click)="add(ciaoName.value); ciaoName.value=''">
-    Add ciao
+    Add worker
   </button>
 </div>
 
